@@ -15,10 +15,14 @@ However if for some reason the link does not work or you wish to setup this webs
 ## Authors
 
 This tool was created by:
-Thomas Marten Email:marten.j.th@gmail.com, [Github](https://www.linkedin.com/in/thomas-marten-080b4b234/), [LinkedIn](https://www.linkedin.com/in/thomas-marten-080b4b234/)
+Thomas Marten Email: marten.j.th@gmail.com, [Github](https://www.linkedin.com/in/thomas-marten-080b4b234/), [LinkedIn](https://www.linkedin.com/in/thomas-marten-080b4b234/)
+
 Daniel Maslowski Email: dpmaslowski@gmail.com, 
+
 Duncan Zaug Email: zaugboys@gmail.com, 
+
 Justyce Countryman: countrymanjustyce2002@gmail.com,
+
 Tim Dube. 
 
 
