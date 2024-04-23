@@ -1,7 +1,7 @@
 # Gravity-Waves-Analysis-Tool
 
 
-## IntroDuction
+## Introduction
 
 ## How to Access
 
