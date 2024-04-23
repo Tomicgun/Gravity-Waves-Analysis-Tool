@@ -17,13 +17,13 @@ However if for some reason the link does not work or you wish to setup this webs
 This tool was created by:
 Thomas Marten Email: marten.j.th@gmail.com, [Github](https://www.linkedin.com/in/thomas-marten-080b4b234/), [LinkedIn](https://www.linkedin.com/in/thomas-marten-080b4b234/)
 
-Daniel Maslowski Email: dpmaslowski@gmail.com, 
+Daniel Maslowski Email: dpmaslowski@gmail.com, [Portfolio](https://danpmas.github.io/)
 
-Duncan Zaug Email: zaugboys@gmail.com, 
+Duncan Zaug Email: zaugboys@gmail.com, [Github](https://github.com/Offhornet28/Duncan-College-Projects)
 
-Justyce Countryman: countrymanjustyce2002@gmail.com,
+Justyce Countryman: countrymanjustyce2002@gmail.com, [Github](https://github.com/lljustycell999) [LinkedIn](https://www.linkedin.com/in/justyce-countryman-391b40294/) [Portfolio](https://lljustycell999.github.io/JustyceCountryman.github.io/)
 
-Tim Dube. 
+Tim Dube [Portfolio](https://timmydube.vercel.app/) 
 
 
 ## How to deploy
