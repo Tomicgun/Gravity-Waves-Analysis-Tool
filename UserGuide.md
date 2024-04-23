@@ -3,20 +3,20 @@
 
 ## IntroDuction
 
-##How to Access
+## How to Access
 
-##Authors
+## Authors
 
-##How to deploy
+## How to deploy
 
 ### How to un-deploy
 
-###Important Notes on docker
+### Important Notes on docker
 
-##Miscellaneous Information
+## Miscellaneous Information
 
-###What is GDL?
+### What is GDL?
 
-###What Parameters and Graphs are generated?
+### What Parameters and Graphs are generated?
 
-##Trouble Shooting
+## Trouble Shooting
