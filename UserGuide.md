@@ -44,7 +44,41 @@ Dr.Tenbergen for helping us be the best we could be and for pushing us to work h
 ## Miscellaneous Information
 
 ### What is GDL?
+GDL (GNU data language)  is an open source free to use version of IDL (Interactive data language). 
+We used GDL since IDl licenses are expensive upwards of 2000 dollars, and we wanted this product to be free and easily usable by users. 
 
 ### What Parameters and Graphs are generated?
+
+The graphs created are as listed:
+
+- Weather Balloon Travel Path 
+- Temperature vs. Altitude
+- Temperature Perturbation
+- Hodograph
+- Ascension rate
+- U wind component vs. Altitude
+- V wind component vs. Altitude
+- U’ wind component Perturbation
+- V’ wind component Perturbation
+
+Every Graph will be produced twice once for Troposphere and once for Stratosphere
+
+The Parameters created are as listed:
+
+- Zbot (km) (Start Altitude) 
+- Ztop (km) (End Altitude)
+- Horizontal Wavelength (km)
+- Vertical Wavelength (Km)
+- Mean Phase Propagation Direction (deg)
+- Upward Propagation Fraction
+- Zonal Momentum Flux (m^2/s^2)
+- Meridional Momentum Flux (m^2/s^2)
+- Potential Energy (J/Kg)
+- Kinetic Energy (J/Kg)
+- Intrinsic Frequency (s^-1)
+- Coriolis Parameter (J/Kg)
+	
+These Parameters are repeated twice, once for the Troposphere and one for the Stratosphere. The estimated height for the tropopause is also provided in kilometers. 
+
 
 ## Trouble Shooting
