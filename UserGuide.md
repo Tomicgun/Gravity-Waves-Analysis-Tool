@@ -8,6 +8,9 @@ Dr.Kanbur and Dr.Tenbergen at Suny Oswego University and Dr.Gong at the NASA God
 of Graphs. These results will be placed into a PDF which you can then download onto your computer for use outside of our website.
 
 ## How to Access
+This Website has been graciously been hosted for free, by the Suny Oswego Computer Science department and Dr.Tenbergen at http://moxie.cs.oswego.edu:10761/
+
+However if for some reason the link does not work or you wish to setup this website on your computer or a server below is a guide to deploy the website.
 
 ## Authors
 
