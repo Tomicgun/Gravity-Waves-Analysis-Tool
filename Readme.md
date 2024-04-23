@@ -40,6 +40,28 @@ There is only one dependency for this tool that is not included with our code an
 Please follow this [Link](https://www.docker.com/get-started/) to do that first. If you are setting this up on a server or a different machine please reach out to the server manager or machine manager and ask them to set up docker. 
 If you are the manager please follow this [Link](https://docs.docker.com/engine/install/), and this [Link](https://docs.docker.com/compose/install/#:~:text=Docker%20Desktop%20includes%20Docker%20Compose,CLI%20which%20are%20Compose%20prerequisites.). Once the docker engine or docker desktop is installed and running on your server/computer follow the steps below. 
 
+For deploying this website on a computer or laptop follow these instructions:
+1. Please click this link [TODO ADD LINK] to the public repository containing this guide and the code.
+2. Copy the docker-compose.yaml file to your computer you can do this by using the github command line, if you are familiar with it, or use the button shown below.
+[TODO ADD IMAGE}
+3. Open up docker desktop and press ctrl+k or command+k on mac. Then type in this command dzaug/csc380_back_end_image then press the pull button just to the right of it.
+![alt text][Image1]
+4. Repeat step three but instead of typing in dzaug/csc380_back_end_image type in dzaug/csc380_front_end_image.
+5. Open up the terminal for your machine and using the cd command to traverse your directory structure to where ever you downlaoded or copied the docker-compose.yaml file. If you use the download button in the github repo then it should be in your C:\Users\$username$\Downloads (windows)
+6. Once the terminal is at the folder where the docker-compose.yaml then type this command docker compose up or docker-compose up (if on older docker engine version). This will spin up the two previously pulled images into containers and stored on your local machine.
+7. open up docker desktop and click the containers tab where the two containers should now show up. Click on the containers.
+![alt text][Image2]
+8. Then click on the 10761 number which will open the website
+![alt text][Image3]
+9. There you go you should have the containers setup and running on your pc
+
+For deploying this website on a server follow these instructions:
+1. Open up the server termianl run these two commands docker pull dzaug/csc380_back_end_image and docker pull dzaug/csc380_front_end_image
+2. Copy the docker-compose.yaml file onto the server
+3. Traverse to the folder that contains the docker-compose.yaml file
+4. run this command docker compose up or docker-compose up (if on a older version of docker engine)
+5. You should now have it running on your server this program defualts to port 10761 if you need to change the port please look at the important notes section.
+
 ### How to un-deploy
 
 ### Important Notes on docker
@@ -85,3 +107,8 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 
 
 ## Trouble Shooting
+
+
+[Image1]: https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/blob/main/Images/Screenshot%202024-04-21%20172442.jpg
+[Image2]: https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/blob/main/Images/Screenshot%202024-04-21%20173852.jpg
+[Image3]: https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/blob/main/Images/Screenshot%202024-04-21%20174000.jpg
