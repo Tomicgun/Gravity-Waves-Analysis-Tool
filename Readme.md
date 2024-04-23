@@ -75,6 +75,9 @@ For deploying this website on a server follow these instructions:
 5. You should now have it running on your server this program defualts to port 10761 if you need to change the port please look at the important notes section.
 
 ### How to un-deploy
+1. Open up your server/computer command line traverse directories until you are at the directory that contains the docker-compose.yaml file.Then run the docker compose down command or docker-compose down (if on a older version of docker)
+3. If you are on a computer, open up docker desktop and open the volumes tab and delete the csc380_pdf-out and the csc380_text-in. If you are on a server then run these two commands docker volume rm csc380_pdf-out and docker volume rm csc380_text-in
+4. That's it you have now taken down the two containers and cleaned up the volumes. 
 
 ### Important Notes on docker
 
