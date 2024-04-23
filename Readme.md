@@ -45,15 +45,27 @@ For deploying this website on a computer or laptop follow these instructions:
 2. Copy the docker-compose.yaml file to your computer you can do this by using the github command line, if you are familiar with it, or use the button shown below.
 [TODO ADD IMAGE}
 3. Open up docker desktop and press ctrl+k or command+k on mac. Then type in this command dzaug/csc380_back_end_image then press the pull button just to the right of it.
+
+
 ![alt text][Image1]
-4. Repeat step three but instead of typing in dzaug/csc380_back_end_image type in dzaug/csc380_front_end_image.
-5. Open up the terminal for your machine and using the cd command to traverse your directory structure to where ever you downlaoded or copied the docker-compose.yaml file. If you use the download button in the github repo then it should be in your C:\Users\$username$\Downloads (windows)
-6. Once the terminal is at the folder where the docker-compose.yaml then type this command docker compose up or docker-compose up (if on older docker engine version). This will spin up the two previously pulled images into containers and stored on your local machine.
-7. open up docker desktop and click the containers tab where the two containers should now show up. Click on the containers.
+
+
+5. Repeat step three but instead of typing in dzaug/csc380_back_end_image type in dzaug/csc380_front_end_image.
+6. Open up the terminal for your machine and using the cd command to traverse your directory structure to where ever you downlaoded or copied the docker-compose.yaml file. If you use the download button in the github repo then it should be in your C:\Users\$username$\Downloads (windows)
+7. Once the terminal is at the folder where the docker-compose.yaml then type this command docker compose up or docker-compose up (if on older docker engine version). This will spin up the two previously pulled images into containers and stored on your local machine.
+8. open up docker desktop and click the containers tab where the two containers should now show up. Click on the containers.
+
+
 ![alt text][Image2]
-8. Then click on the 10761 number which will open the website
+
+
+9. Then click on the 10761 number which will open the website
+
+
 ![alt text][Image3]
-9. There you go you should have the containers setup and running on your pc
+
+
+10. There you go you should have the containers setup and running on your pc
 
 For deploying this website on a server follow these instructions:
 1. Open up the server termianl run these two commands docker pull dzaug/csc380_back_end_image and docker pull dzaug/csc380_front_end_image
