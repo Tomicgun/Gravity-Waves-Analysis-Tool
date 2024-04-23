@@ -89,7 +89,7 @@ For deploying this website on a server follow these instructions:
 - If you wish to change the default port from 10761 to something else simply go into the docker-compose.yaml file and change line 12 from 10671:5000 to [desired port number]:5000. The structure is [server port]:[container port]. Save these changes and un-deploy the containers then re-deploy them for the changes to take effect.
 
 
-- If you intend to make changes to the source code provided, please make sure to either edit a fork or make a copy of the code, you cannot edit the code on the github repository. We cannot guarantee changes made to code will not break certain features; you do this at your own risk. Any changes made to the source code must be updated in the docker images, you can make copies of the images we have provided, but you will need to rebuild these images on your local machine. 
+- If you intend to make changes to the source code provided, please make sure to either edit a fork or make a copy of the code, you cannot edit the orgional code on this github repository. We cannot guarantee changes made to code will not break certain features; you do this at your own risk. Any changes made to the source code must be updated in the docker images, you can make copies of the images we have provided, but you will need to rebuild these images on your local machine. 
 
 
 ## Miscellaneous Information
