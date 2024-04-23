@@ -25,8 +25,7 @@ Justyce Countryman: countrymanjustyce2002@gmail.com, [Github](https://github.com
 
 Tim Dube [Portfolio](https://timmydube.vercel.app/) 
 
-######Special Thanks to:
-Special thanks to:
+###### Special Thanks to:
 Dr.Barber for suggesting such great additions and features and helping us with all the science behind this tool. 
 Dr.Kanbur for meeting with us and connecting us with Dr.Gong and helping orientate ourselves when this project started. 
 Dr.Gong for being our lighthouse and giving us the code needed to run GDL. Your work and effort put into that code has made this project possible and for visiting us at suny oswego.
