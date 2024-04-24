@@ -41,7 +41,7 @@ Please follow this [Link](https://www.docker.com/get-started/) to do that first.
 If you are the manager please follow this [Link](https://docs.docker.com/engine/install/), and this [Link](https://docs.docker.com/compose/install/#:~:text=Docker%20Desktop%20includes%20Docker%20Compose,CLI%20which%20are%20Compose%20prerequisites.). Once the docker engine or docker desktop is installed and running on your server/computer follow the steps below. 
 
 For deploying this website on a computer or laptop follow these instructions:
-1. Please click this link [TODO ADD LINK] to the public repository containing this guide and the code.
+1. Please click this link [Link](https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool) to the public repository containing this guide and the code.
 2. Copy the docker-compose.yaml file to your computer you can do this by using the github command line, if you are familiar with it, or use the button shown below.
 [TODO ADD IMAGE}
 3. Open up docker desktop and press ctrl+k or command+k on mac. Then type in this command dzaug/csc380_back_end_image then press the pull button just to the right of it.
