@@ -137,8 +137,6 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 ###Common Problems/Solutions
 ### Quality Control Data
 
-**Disklamer**
-
 Most Errors occur due to bad data in the radio-sond file please make sure that all radiosond files are cleaned and remove data points that are:
 - 
 
