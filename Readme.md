@@ -35,7 +35,7 @@ Dr.Gong for being our lighthouse and giving us the code needed to run GDL. Your 
 Dr.Tenbergen for helping us be the best we could be and for pushing us to work hard everyday. This project would have long ago failed if it was not for your constant guidance, support and teaching that you do everyday. Keep being awesome. 
 
 
-## How to deploy
+## How to Deploy
 There is only one dependency for this tool that is not included with our code and that is Docker. You will need to install and set up docker on your computer to host this website. 
 Please follow this [Link](https://www.docker.com/get-started/) to do that first. If you are setting this up on a server or a different machine please reach out to the server manager or machine manager and ask them to set up docker. 
 If you are the manager please follow this [Link](https://docs.docker.com/engine/install/), and this [Link](https://docs.docker.com/compose/install/#:~:text=Docker%20Desktop%20includes%20Docker%20Compose,CLI%20which%20are%20Compose%20prerequisites.). Once the docker engine or docker desktop is installed and running on your server/computer follow the steps below. 
@@ -74,7 +74,7 @@ For deploying this website on a server follow these instructions:
 4. run this command docker compose up or docker-compose up (if on a older version of docker engine)
 5. You should now have it running on your server this program defualts to port 10761 if you need to change the port please look at the important notes section.
 
-### How to un-deploy
+### How to Un-deploy
 1. Open up your server/computer command line traverse directories until you are at the directory that contains the docker-compose.yaml file.Then run the docker compose down command or docker-compose down (if on a older version of docker engine)
 3. If you are on a computer, open up docker desktop and open the volumes tab and delete the csc380_pdf-out and the csc380_text-in. If you are on a server then run these two commands docker volume rm csc380_pdf-out and docker volume rm csc380_text-in
 
@@ -84,7 +84,7 @@ For deploying this website on a server follow these instructions:
 
 4. That's it you have now taken down the two containers and cleaned up the volumes. 
 
-### Important Notes on docker
+### Important Notes on Docker
 
 - If you wish to change the default port from 10761 to something else simply go into the docker-compose.yaml file and change line 12 from 10671:5000 to [desired port number]:5000. The structure is [server port]:[container port]. Save these changes and un-deploy the containers then re-deploy them for the changes to take effect.
 
@@ -98,7 +98,7 @@ For deploying this website on a server follow these instructions:
 GDL (GNU data language)  is an open source free to use version of IDL (Interactive data language). 
 We used GDL since IDl licenses are expensive upwards of 2000 dollars, and we wanted this product to be free and easily usable by users. 
 
-### What Parameters and Graphs are generated?
+### What Parameters and Graphs are Generated?
 
 The graphs created are as listed:
 
@@ -132,7 +132,7 @@ The Parameters created are as listed:
 These Parameters are repeated twice, once for the Troposphere and one for the Stratosphere. The estimated height for the tropopause is also provided in kilometers. 
 
 
-## Trouble Shooting
+## Troubleshooting
 
 ### Common Problems/Solutions
 #### Quality Control Data
@@ -146,7 +146,7 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 #### Known Errors
 1. If you get a Insecure/SSL error on chrome pleasse follow this [link](https://support.google.com/chrome/answer/2392709?hl=en&co=GENIE.Platform%3DDesktop) and its instrctuions
 
-#### How to submit a github issue
+#### How to submit a GitHub issue
 
 1. Click this [link](https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/issues)
 2. Then click the green issue button in the right upper corner
