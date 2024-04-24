@@ -148,10 +148,10 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 
 #### How to submit a github issue
 
-Step 1. Click this [link](https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/issues)
-Step 2. Then click the green issue button in the right upper corner
-Step 3. Please describe your error in as much detail as you can and give the exact error code given by the website
-step 4. Click the submit new issue, we the authors will see these issues and can address them
+1. Click this [link](https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/issues)
+2. Then click the green issue button in the right upper corner
+3. Please describe your error in as much detail as you can and give the exact error code given by the website
+4. Click the submit new issue, we the authors will see these issues and can address them
    
 
 
