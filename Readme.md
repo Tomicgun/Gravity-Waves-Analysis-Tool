@@ -138,7 +138,6 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 ### Quality Control Data
 
 Most Errors occur due to bad data in the radio-sond file please make sure that all radiosond files are cleaned and remove data points that are:
-- 
 
 #### Known Errors
 1. If you get a Insecure/SSL error pleasse follow this [link](https://support.google.com/chrome/answer/2392709?hl=en&co=GENIE.Platform%3DDesktop) and its instrctuions
