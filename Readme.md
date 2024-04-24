@@ -138,12 +138,20 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 ### Quality Control Data
 
 **Most Errors occur due to bad data in the radio-sond file please make sure that all radiosond files are cleaned and remove data points that are:**
+- Remove sections of data where radiosonde altitude drops unexpectedly
+- Replace invalid data values with one of the following: "999999", "1000002", "-", "--", "999999.0", "999999.00", "999999.000", '-999.9', "-9999.9"
+- Ensure radiosonde data includes both troposphere and stratosphere (each graph utilizes the  tropopause which requires data from entire atmosphere to calculate)
+- Ensure radiosonde is in one of the following formats "insert images of radiosonde format here"
 
 #### Known Errors
 1. If you get a Insecure/SSL error pleasse follow this [link](https://support.google.com/chrome/answer/2392709?hl=en&co=GENIE.Platform%3DDesktop) and its instrctuions
 
 #### How to submit a github issue
 
+Step 1. Click this [link](https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/issues)
+Step 2. Then click the green issue button in the right upper corner
+Step 3. Please describe your error in as much detail as you can and give the exact error code given by the website
+step 4. Click the submit new issue, we the authors will see these issues and can address them
    
 
 
