@@ -135,6 +135,8 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 ## Trouble Shooting
 
 
+## Credits Page
+
 [Image1]: https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/blob/main/Images/Screenshot%202024-04-21%20172442.jpg
 [Image2]: https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/blob/main/Images/Screenshot%202024-04-21%20173852.jpg
 [Image3]: https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/blob/main/Images/Screenshot%202024-04-21%20174000.jpg
