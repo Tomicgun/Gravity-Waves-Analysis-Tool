@@ -98,7 +98,7 @@ For deploying this website on a server follow these instructions:
     2. `. venv/bin/activate` to activate and go into the virtual environment
     3. `pip3 install flask` within the virtual environment to install flask
     4. Then close the terminal instance that is within the virtual environment.
-  You are now ready to activate and build the frontend image.  
+  You are now ready to build the frontend image.  
 
 
 ## Miscellaneous Information
