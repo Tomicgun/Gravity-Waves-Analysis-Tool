@@ -137,7 +137,7 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 ### Common Problems/Solutions
 #### Quality Control Data
 
-**Most Errors occur due to bad data in the radio-sond file please make sure that all radiosond files are cleaned and remove data points that are:**
+**Most Errors occur due to bad data in the radiosonde file please make sure that all radiosond files are cleaned and remove data points that are:**
 - Remove sections of data where radiosonde altitude drops unexpectedly
 - Replace invalid data values with one of the following: "999999", "1000002", "-", "--", "999999.0", "999999.00", "999999.000", '-999.9', "-9999.9"
 - Ensure radiosonde data includes both troposphere and stratosphere (each graph utilizes the  tropopause which requires data from entire atmosphere to calculate)
