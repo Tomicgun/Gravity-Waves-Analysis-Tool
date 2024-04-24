@@ -84,7 +84,7 @@ For deploying this website on a server follow these instructions:
 
 4. That's it you have now taken down the two containers and cleaned up the volumes. 
 
-### Important Notes on Docker
+### Important Notes
 
 - If you wish to change the default port from 10761 to something else simply go into the docker-compose.yaml file and change line 12 from 10671:5000 to [desired port number]:5000. The structure is [server port]:[container port]. Save these changes and un-deploy the containers then re-deploy them for the changes to take effect.
 
