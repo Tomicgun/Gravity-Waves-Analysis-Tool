@@ -144,7 +144,7 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 - Ensure radiosonde is in one of the following formats "insert images of radiosonde format here"
 
 #### Known Errors
-1. If you get a Insecure/SSL error pleasse follow this [link](https://support.google.com/chrome/answer/2392709?hl=en&co=GENIE.Platform%3DDesktop) and its instrctuions
+1. If you get a Insecure/SSL error on chrome pleasse follow this [link](https://support.google.com/chrome/answer/2392709?hl=en&co=GENIE.Platform%3DDesktop) and its instrctuions
 
 #### How to submit a github issue
 
