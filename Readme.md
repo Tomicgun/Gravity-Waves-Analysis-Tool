@@ -42,7 +42,7 @@ If you are the manager please follow this [Link](https://docs.docker.com/engine/
 
 For deploying this website on a computer or laptop follow these instructions:
 1. Please click this link [Link](https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool) to the public repository containing this guide and the code.
-2. Copy the docker-compose.yaml file to your computer you can do this by using the github command line, if you are familiar with it, or use this [link](https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/releases/tag/v1.0) and this file shown bellow
+2. Copy the docker-compose.yaml file to your computer you can do this by using the github command line, if you are familiar with it, or use this [link](https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/releases/tag/v1.0) and click on the file shown bellow
 ![alt text](https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/blob/main/Images/Screenshot%202024-04-24%20095515.jpg)
 4. Open up docker desktop and press ctrl+k or command+k on mac. Then type in this command dzaug/csc380_back_end_image then press the pull button just to the right of it.
 
