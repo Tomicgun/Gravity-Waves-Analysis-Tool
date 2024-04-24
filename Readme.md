@@ -134,8 +134,25 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 
 ## Trouble Shooting
 
+###Common Problems/Solutions
+### Quality Control Data
+**Disklamer**
+Most Errors occur due to bad data in the radio-sond file please make sure that all radiosond files are cleaned and remove data points that are:
+- 
+
+#### Known Errors
+1. If you get a Insecure/SSL error pleasse follow this [link](https://support.google.com/chrome/answer/2392709?hl=en&co=GENIE.Platform%3DDesktop) and its instrctuions
+
+#### How to submit a github issue
+
+   
+
 
 ## Credits Page
+1. Dr.Dong Jie Gong (2009):Characteristics of Two Gravity Wave Sources in the US High Vertical-resolution Radiosonde Data,PhD. thesis
+2. Dr. Kanbur
+3. Dr. Barver
+4. Dr. Tenbergen
 
 [Image1]: https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/blob/main/Images/Screenshot%202024-04-21%20172442.jpg
 [Image2]: https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool/blob/main/Images/Screenshot%202024-04-21%20173852.jpg
