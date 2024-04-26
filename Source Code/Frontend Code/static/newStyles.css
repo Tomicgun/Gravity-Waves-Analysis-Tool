@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    height: 40vh;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+  }
+  
+  .title_bar {
+    background-color: #2d3748;
+    width: 100%;
+    height: 18vh;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .title_text {
+    color: white;
+    font-family: "Lato", serif;
+    font-size: 40px;
+    font-weight: 100;
+    background-color: transparent;
+    padding-left: 2vh;
+    margin: 2vh;
+  }
+  
+  .main_body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .author_block {
+    display: flex;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    background-color: rgb(232, 232, 232);
+    border: #2d3748;
+    border-radius: 1px;
+    border-style: solid;
+  }
+  
+  .image_container {
+    width: 4vh;
+    height: 4vh;
+  }
+  
+  .image_holder {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image_template {
+    width: 28vh;
+    height: auto;
+    margin-left: 4vh;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px 14px lightblue;
+  }
+  
+  .author_text_block {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 2vh;
+    padding-left: 6vh;
+    padding-right: 0;
+    margin: 0;
+  }
+  
+  .author_name {
+    color: #2d3748;
+    font-size: 5vh;
+    padding-top: 2vh;
+    margin: 0;
+  }
+  
+  .grade_level_text {
+    color: #2d3748;
+    font-size: 2.2vh;
+    padding-top: 0.75vh;
+    padding-bottom: 0;
+    padding-left: 0.5vh;
+    padding-right: 0;
+    margin: 0;
+  }
+  
+  .about_me_text {
+    font-size: 2.2vh;
+    color: #2d3748;
+    padding-top: 1vh;
+    padding-bottom: 0;
+    padding-left: 0.5vh;
+    padding-right: 0;
+    margin: 0;
+    word-wrap: break-word;
+    width: 83vh;
+  }
+  
+  .visit_website_text {
+    font-size: 2.2vh;
+    padding-top: 1vh;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    color: #2d3748;
+  }
+  
+  .contact_me_text {
+    font-size: 2.2vh;
+    padding-top: 1vh;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    color: #2d3748;
+  }
+
+
+
+

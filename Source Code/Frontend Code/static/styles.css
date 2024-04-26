@@ -22,6 +22,13 @@ body, html {
     gap: 10px;
 }
 
+.sidebar-logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: -70px; /* space below the logo */
+    margin-top: -80px;
+}
+
 .content {
     margin-left: 150px; /* accommodate sidebar width */
     height: calc(100% - 40px);
@@ -63,7 +70,7 @@ input[type="file"] {
 }
 
 .button img {
-    width: 58px; /* icon size */
+    width: 68px; /* icon size */
     height: auto;
 }
 
@@ -76,6 +83,9 @@ input[type="file"] {
     background-color: #0056b3;
 }
 
+.button.author-button {
+    margin-top: 80px;
+}
 
 
 
