@@ -1,6 +1,7 @@
+import os
+os.environ['OPENBLAS_NUM_THREADS'] = '8'
 from flask import Flask, request, send_from_directory, jsonify, render_template
 from werkzeug.utils import secure_filename
-import os
 import subprocess
 import glob
 
