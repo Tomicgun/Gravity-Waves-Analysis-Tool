@@ -20,6 +20,7 @@ body, html {
     align-items: center; /* center horizontally */
     /* justify-content: center; center vertically */
     gap: 10px;
+    overflow: scroll;
 }
 
 .sidebar-logo {
@@ -70,7 +71,7 @@ input[type="file"] {
 }
 
 .button img {
-    width: 68px; /* icon size */
+    width: 58px; /* icon size */
     height: auto;
 }
 
