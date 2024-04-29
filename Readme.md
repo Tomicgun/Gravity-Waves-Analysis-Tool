@@ -156,6 +156,7 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 1. If you get a Insecure/SSL error on chrome pleasse follow this [link](https://support.google.com/chrome/answer/2392709?hl=en&co=GENIE.Platform%3DDesktop) and its instrctuions
 2. If the UI looks cut offed or the buttons are cut off from the edge of the screen press ctrl +  or ctrl - to rezie the UI to proper proportions.
 3. If it gives you a error file could not be processed please re-upload the sumitted file.
+4. if it gives a no file part no file was provided in the file upload please re submitte the file.
 
 #### How to submit a GitHub issue
 
