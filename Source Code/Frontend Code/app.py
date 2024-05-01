@@ -1,5 +1,5 @@
 import os
-os.environ['OPENBLAS_NUM_THREADS'] = '8'
+os.environ['OPENBLAS_NUM_THREADS'] = '2'
 from flask import Flask, request, send_from_directory, jsonify, render_template
 from werkzeug.utils import secure_filename
 import subprocess
@@ -57,6 +57,11 @@ def index():
 @app.route('/authors')
 def authors():
     return render_template('authors.html')
+
+
+@app.route('/troubleshoot')
+def troubleshoot():
+    return render_template('troubleshoot.html')
 
 
 # route for file uploads

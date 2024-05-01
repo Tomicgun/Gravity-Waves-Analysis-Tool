@@ -11,6 +11,8 @@
   </head>
   <body>
     <div class="title_bar">
+              <!-- logo -->
+              <img src="/static/Icons/Logo.png" alt="Logo" class="sidebar-logo">
       <h4 class="title_text">Meet The Team</h4>
     </div>
     <div class="main_body">
@@ -26,7 +28,7 @@
           <h4 class="author_name">Timothy Dube</h4>
           <h4 class="grade_level_text">Junior Computer Science Major</h4>
           <p class="about_me_text">
-            <strong>about me: </strong>I am a junior computer science major at
+            <strong>About Me: </strong>I am a junior computer science major at
             Suny Oswego. I have 6 years of experience in programming and I am
             always looking for new project to hone my skills. Check out my
             website!
@@ -41,7 +43,7 @@
           </div>
           <div class="contact_me_text">
             <strong>Contact Me: </strong>
-            <span><a href="timdube0@gmail.com">timdube0@gmail.com</a></span>
+            <span> <a href="mailto:timdube0@gmail.com">timdube0@gmail.com</a></span>
           </div>
         </div>
       </div>
@@ -57,7 +59,7 @@
           <h4 class="author_name">Daniel Maslowski</h4>
           <h4 class="grade_level_text">Senior Computer Science Major</h4>
           <p class="about_me_text">
-            <strong>about me: </strong>I am a dedicated second degree student at
+            <strong>About Me: </strong>I am a dedicated second degree student at
             SUNY Oswego. I completed my first B.S. in Atmospheric Sciences and
             came back to my Alma Mater to pursue a second B.S. in Computer
             Science. I'm grateful to have been given the opportunity to combine
@@ -74,9 +76,7 @@
           </div>
           <div class="contact_me_text">
             <strong>Contact Me: </strong>
-            <span
-              ><a href="dpmaslowski@gmail.com">dpmaslowski@gmail.com</a></span
-            >
+            <span> <a href="mailto:dpmaslowski@gmail.com">dpmaslowski@gmail.com</a></span>
           </div>
         </div>
       </div>
@@ -92,7 +92,7 @@
           <h4 class="author_name">Thomas Marten</h4>
           <h4 class="grade_level_text">Junior Computer Science Major</h4>
           <p class="about_me_text">
-            <strong>about me: </strong> I am Junior computer science major at
+            <strong>About Me: </strong> I am Junior computer science major at
             Suny Oswego. I love problem solving, hiking and working on cool
             projects. This project was a great opportunity to lead, develop and
             design a Open source product and contribute to NASA efforts to
@@ -108,18 +108,14 @@
           </div>
           <div class="contact_me_text">
             <strong>Contact Me: </strong>
-            <span
-              ><a href="mailto:marten.j.th@gmail.com"
-                >marten.j.th@gmail.com</a
-              ></span
-            >
+            <span> <a href="mailto:marten.j.th@gmail.com">marten.j.th@gmail.com</a></span>
           </div>
         </div>
       </div>
       <div class="author_block">
         <div>
           <img
-            src="/static/Icons/ProfilePic_Duncan.jpg"
+            src="/static/Icons/ProfilePic_Dunkin.jpg"
             alt="Image of author"
             class="image_template"
           />
@@ -128,7 +124,7 @@
           <h4 class="author_name">Duncan Zaug</h4>
           <h4 class="grade_level_text">Junior Computer Science Major</h4>
           <p class="about_me_text">
-            <strong>about me: </strong> I am junior CS student at SUNY Oswego, I
+            <strong>About Me: </strong> I am junior CS student at SUNY Oswego, I
             have experience in a multitude of programming languages such as
             Python, FORTRAN, and C#. I am a hobbyist meteorologist and I like to
             fish in my spare time. This project was a excellent opportunity to
@@ -146,11 +142,7 @@
           </div>
           <div class="contact_me_text">
             <strong>Contact Me: </strong>
-            <span
-              ><a href="https://www.zaugboys@gmail.com/"
-                >zaugboys@gmail.com/</a
-              ></span
-            >
+              <span> <a href="mailto:zaugboys@gmail.com">zaugboys@gmail.com</a></span>
           </div>
         </div>
       </div>
@@ -166,7 +158,7 @@
           <h4 class="author_name">Justyce Countryman</h4>
           <h4 class="grade_level_text">Senior Computer Science Major</h4>
           <p class="about_me_text">
-            <strong>about me: </strong>At the time of making this project, I am
+            <strong>About Me: </strong>At the time of making this project, I am
             in my final semester at SUNY Oswego. I am very interested in
             improving my coding and mathamatic skills. This project opportunity
             allowed me to get my first real-life simulation of how most
@@ -184,16 +176,20 @@
           </div>
           <div class="contact_me_text">
             <strong>Contact Me: </strong>
-            <span
-              ><a href="countrymanjustyce2002@gmail.com"
-                >countrymanjustyce2002@gmail.com</a
-                ></span
-                >
+            <span> <a href="mailto:countrymanjustyce2002@gmail.com">countrymanjustyce2002@gmail.com</a></span>
               </div>
             </div>
           </div>
         </div>
       </body>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var links = document.querySelectorAll('body a');
+            links.forEach(function(link) {
+                link.setAttribute('target', '_blank');
+            });
+        });
+    </script>
     </html>
 
 
