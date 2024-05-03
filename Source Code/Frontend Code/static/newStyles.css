@@ -53,12 +53,14 @@ body {
   
   .author_block {
     display: flex;
-    padding-top: 8vh;
-    padding-bottom: 8vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
     background-color: rgb(232, 232, 232);
     border: #2d3748;
     border-radius: 1px;
     border-style: solid;
+    align-content: center;
+    align-items: center;
   }
 
   .author_b {
@@ -82,7 +84,7 @@ body {
   }
   
   .image_template {
-    width: 28vh;
+    width: 10vh;
     height: auto;
     margin-left: 4vh;
     border-radius: 50%;
@@ -169,6 +171,22 @@ body {
     margin-top: -105px;
   }
 
+  .osw-logo {
+    width: 200px;
+    height: auto;
+    /* margin-bottom: -80px;
+    margin-top: -105px; */
+    margin-left: 100px;
+  }
+
+  .ologo {
+    width: 200px;
+    height: auto;
+    /* margin-bottom: -80px;
+    margin-top: -105px; */
+    margin-left: 500px;
+  }
+
   .file1-img{
   width: 1650px;
   margin-left: -30px;
@@ -190,9 +208,23 @@ body {
       border-radius: 5px;
   }
   
+  .author_pair {
+    display: flex; /* side by side */
+    justify-content: center;
+    width: 100%;
+  }
 
-
-
-
-
-
+  .ext {
+    font-size: 4vh;
+    color: #2d3748;
+    padding-top: 1vh;
+    padding-bottom: 0;
+    padding-left: 50vh;
+    padding-right: 0;
+    margin: 0;
+    word-wrap: break-word;
+    width: 83vh;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
