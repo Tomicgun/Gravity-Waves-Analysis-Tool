@@ -38,7 +38,7 @@ Dr.Tenbergen for helping us be the best we could be and for pushing us to work h
 ## How to Deploy
 There is only one dependency for this tool that is not included with our code and that is Docker. You will need to install and set up docker on your computer to host this website. 
 Please follow this [Link](https://www.docker.com/get-started/) to do that first. If you are setting this up on a server or a different machine please reach out to the server manager or machine manager and ask them to set up docker. 
-If you are the manager please follow this [Link](https://docs.docker.com/engine/install/), and this [Link](https://docs.docker.com/compose/install/#:~:text=Docker%20Desktop%20includes%20Docker%20Compose,CLI%20which%20are%20Compose%20prerequisites.). Once the docker engine or docker desktop is installed and running on your server/computer follow the steps below. 
+If you are the manager please follow this [Link](https://docs.docker.com/engine/install/), and this [Link](https://docs.docker.com/compose/install/#:~:text=Docker%20Desktop%20includes%20Docker%20Compose,CLI%20which%20are%20Compose%20prerequisites.). Once the docker engine and or docker desktop is installed and running on your server/computer follow the steps below. 
 
 For deploying this website on a computer or laptop follow these instructions:
 1. Please click this link [Link](https://github.com/Tomicgun/Gravity-Waves-Analysis-Tool) to the public repository containing this guide and the code.
