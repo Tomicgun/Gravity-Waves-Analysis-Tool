@@ -150,7 +150,6 @@ These Parameters are repeated twice, once for the Troposphere and one for the St
 - Remove sections of data where radiosonde altitude drops unexpectedly
 - Replace invalid data values with one of the following: "999999", "1000002", "-", "--", "999999.0", "999999.00", "999999.000", '-999.9', "-9999.9"
 - Ensure radiosonde data includes both troposphere and stratosphere (each graph utilizes the  tropopause which requires data from entire atmosphere to calculate)
-- Ensure radiosonde is in one of the following formats "insert images of radiosonde format here"
 
 #### Known Errors
 1. If you get a Insecure/SSL error on chrome pleasse follow this [link](https://support.google.com/chrome/answer/2392709?hl=en&co=GENIE.Platform%3DDesktop) and its instrctuions
